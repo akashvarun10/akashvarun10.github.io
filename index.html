@@ -2,21 +2,11 @@
 <html lang="en">
 
 <head>
+  <!-- Add your head content here -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Akash Varun</title>
-  <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
 
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  
-
-  <!-- Favicons -->
-  <!--
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  -->
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -32,17 +22,17 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="animouse.css" rel="stylesheet">
 
-  
+  <!-- Bootstrap JS and other script includes -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D9771DZM3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6D9771DZM3');
-</script>
+  <script>
+    function showGitHubPopup() {
+      // Display GitHub URLs in a modal
+      $('#githubModal').modal('show');
+    }
+  </script>
 
 </head>
 
@@ -61,14 +51,13 @@
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/akash9varun/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://twitter.com/akash9varun" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://github.com/Akash9varun" class="github"><i class="bx bxl-github"></i></a>
+          <a href="javascript:void(0);" onclick="showGitHubPopup()"><i class="bx bxl-github"></i></a>
           <a href="https://akashvarunp.medium.com" class="medium"><i class="bx bxl-medium"></i></a>
-         
-         
         </div>
       </div>
 
       <nav class="nav-menu">
+        <!-- Add other menu items here -->
         <ul>
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
@@ -76,9 +65,9 @@
           <li><a href="#portfolio"><i class="bx bx-certification"></i>Achievements</a></li>
           <li><a href="#services"><i class="bx bx-server"></i>Projects</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-
         </ul>
       </nav><!-- .nav-menu -->
+
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
     </div>
@@ -89,30 +78,49 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Akash Varun</h1>
       <p>I'm a <span class="typed" data-typed-items="Grad Student , Programmer, Researcher, Tech enthusiast"></span></p>
-        <div class="social-links text-left">
-          <a href="https://www.linkedin.com/in/akash9varun/" class="linkedin mr-3"><i class="bx bxl-linkedin bx-lg" style="font-size:30px;color:#ffffff"></i></a>
-          <a href="https://twitter.com/akash9varun" class="twitter mr-3"><i class="bx bxl-twitter bx-lg" style="font-size:30px;color:#ffffff"></i></a>
-          <a href="https://github.com/Akash9varun" class="github mr-3"><i class="bx bxl-github bx-lg" style="font-size:30px;color:#ffffff"></i></a>
-          <a href="https://akashvarunp.medium.com" class="medium mr-3"><i class="bx bxl-medium bx-lg" style="font-size:30px;color:#ffffff"></i></a>
+      <div class="social-links text-left">
+        <a href="https://www.linkedin.com/in/akash9varun/" class="linkedin mr-3"><i class="bx bxl-linkedin bx-lg" style="font-size:30px;color:#ffffff"></i></a>
+        <a href="https://twitter.com/akash9varun" class="twitter mr-3"><i class="bx bxl-twitter bx-lg" style="font-size:30px;color:#ffffff"></i></a>
+        <a href="javascript:void(0);" class="github mr-3" onclick="showGitHubPopup()"><i class="bx bxl-github bx-lg" style="font-size:30px;color:#ffffff"></i></a>
+        <a href="https://akashvarunp.medium.com" class="medium mr-3"><i class="bx bxl-medium bx-lg" style="font-size:30px;color:#ffffff"></i></a>
 
-	  <div class="text-right d-lg-none"><br/><br/><br/><br/><br/>	
-	  		  <span class="scroll-btn mt-5">
-	<a href="#about">
-		<span class="mouse">
-			<span>
-			</span>
-		</span>
-	</a><br/>
-	<p style="font-size:11px;">scroll down</p>
-
-</span>
-	  </div>
-
-
+        <div class="text-right d-lg-none"><br/><br/><br/><br/><br/>
+          <span class="scroll-btn mt-5">
+            <a href="#about">
+              <span class="mouse">
+                <span></span>
+              </span>
+            </a><br/>
+            <p style="font-size:11px;">scroll down</p>
+          </span>
+        </div>
       </div>
-
-
     </div>
+  </section><!-- End Hero -->
+
+  <!-- GitHub Modal -->
+  <div class="modal fade" id="githubModal" tabindex="-1" role="dialog" aria-labelledby="githubModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="githubModalLabel">GitHub Usernames and URLs</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>GitHub Usernames:</p>
+          <ul>
+            <li><a href="https://github.com/akashvarun10/" target="_blank">akashvarun10 [University & Personal Work]</a></li>
+            <li><a href="https://github.com/akash9varun/" target="_blank">akash9varun [Personal Work]</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   
   </section><!-- End Hero -->
 
